@@ -1,0 +1,6 @@
+{
+  "RequiredSapGuiText": "Specify the required SAP GUI version",
+  "SapShare": "\\\\server\\share\\path\\",
+  "SapXml": "\\\\server\\share\\path\\SAPUILandscape.xml",
+  "SupportInstructions": "Contact your local SAP support team for access assistance."
+}
