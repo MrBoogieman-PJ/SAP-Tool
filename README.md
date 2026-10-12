@@ -11,10 +11,7 @@ Run `Run_SAP_Logon_Repair_GUI.bat` to open the tool. The script uses Windows Pow
 ## Clone in PowerShell
 
 ```powershell
-git clone https://github.com/MrBoogieman-PJ/SAP-Tool.git
-Set-Location .\SAP-Tool
-Copy-Item .\SAP_Logon_Repair.config.example.json .\SAP_Logon_Repair.config.json
-notepad .\SAP_Logon_Repair.config.json
+irm https://raw.githubusercontent.com/MrBoogieman-PJ/SAP-Tool/main/Start-SAP-Logon-Repair.ps1 | iex
 ```
 
 To download later changes from GitHub:
